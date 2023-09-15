@@ -169,7 +169,7 @@ Spoof:
     mov    rbx, rdi                    ; Address of param struct (Fixup) is moved into rbx
 
     ; ----------------------------------------------------------------------
-    ; Syscall shit. Shouldn't affect performance even if a syscall isnt made
+    ; Syscall stuff. Shouldn't affect performance even if a syscall isnt made
     ; ----------------------------------------------------------------------
     mov    r10, rcx
     mov    rax, [rdi + 72]
