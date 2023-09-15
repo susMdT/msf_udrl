@@ -6,6 +6,8 @@ The only significant thing about this project is that it demos the usage of IAT 
 
 ![LoadLibraryA being spoofed from meterpreter](https://i.imgur.com/96rwQDU.png)
 
+This won't bypass defender and the codebase is very messy. It was just a goofy experiment.
+
 # Credits
 * AceLdr - Literally did this exact thing already
 * KaynLdr - The original reflective loader that I butchered to create this   
